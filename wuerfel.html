@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Würfel</title>
+
+    <style>
+		#button {
+			background-color: #ddd;
+			display: inline-block;
+			padding: 0.4em 0.8em;
+			margin-bottom: 1em;
+		}
+		#button:hover {
+			cursor: pointer;
+		}
+        #erg {
+			min-height: 1em;
+			padding: 0.3em;
+			background-color: #ddd;
+		}
+    </style>
+    
+    <script src="wuerfel.js" defer></script>
+
+</head>
+
+    <body>
+
+        <div id="button" onclick="neuerWurf()">Neu würfeln</div>
+		
+		<div id="erg"></div>
+
+    </body>
+
+</html>
+
