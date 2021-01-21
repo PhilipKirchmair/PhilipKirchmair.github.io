@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color: darkorange;
+}
+a{
+	text-decoration: none;
+}
+.video{
+width: 30%;
+height: 20vh;
+margin: 35vh auto 35vh auto ;
+
+}
+#back{
+	background-color:crimson;
+	border: solid crimson 1px;
+	border-radius: 10%;
+	width: 5%;
+	position: absolute;
+	top: 90%;
+	left: 45%;
+	text-align: center;
+	color: white;
+}

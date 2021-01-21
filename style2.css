@@ -69,6 +69,19 @@ h1{
     background-size: cover;
    
 }
+nav{
+    width: 10%;
+}
+nav a{
+    display: flex;
+    justify-content: center;
+    margin-left: -1%;
+    color: black;
+    padding: 2%;
+    background-color: white;
+    text-decoration: none;
+}
+
 #r{
     
     position: absolute;

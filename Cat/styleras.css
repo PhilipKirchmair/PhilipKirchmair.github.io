@@ -1,0 +1,129 @@
+
+
+img{
+    display: inline-block;
+    width: 30%; 
+    -webkit-box-shadow: 36px 36px 43px 3px rgba(0,0,0,0.75);
+-moz-box-shadow: 36px 36px 43px 3px rgba(0,0,0,0.75);
+box-shadow: 36px 36px 43px 3px rgba(0,0,0,0.75);
+}
+body{
+    background-color: lightblue;
+}
+#img{
+    
+    text-align: center;
+    margin: 2vw;
+    
+    
+}
+nav{
+    width: 10%;
+    -webkit-box-shadow: 36px 36px 43px 3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 36px 36px 43px 3px rgba(0,0,0,0.75);
+    box-shadow: 36px 36px 43px 3px rgba(0,0,0,0.75);
+}
+nav a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin-left: -1%;
+    color: white;
+    padding: 2%;
+    background-color: steelblue;
+}
+
+
+h1{
+    margin: 2% auto 2% auto;
+    width: 80%;
+    text-align: center;
+    font-size: 3vw;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(93, 180, 180);
+    color: white;
+    -webkit-bow-shadow: 36px 36px 43px 3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 36px 36px 43px 3px rgba(0,0,0,0.75);
+    box-shadow: 36px 36px 43px 3px rgba(0,0,0,0.75);
+}
+#wrapper{
+    width: 80%;
+    background-color: skyblue;
+    margin: 0 auto 0 auto;
+    padding-bottom: 1%;
+    
+}
+#btn a{
+    text-decoration: none;
+    text-align: center;
+    padding: 2vw;
+    color:white;
+    background-color: steelblue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1vw;
+    position: absolute;
+    top: 50.5%;
+    left: 30.1%;
+}
+#btn{
+    display: inline-block;
+}
+#text{
+    text-align: center;
+    margin-top: 5vw;
+    border: white solid 0.2vw;
+    color:white;
+    text-shadow: 1px 2px 3px #666;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1vw;
+}
+
+
+@media only screen and (max-width: 600px) {
+    /*tablet*/
+   img{
+       width: 80%;
+       height: 100%;
+   }
+   #wrapper{
+    margin-top: 10%;
+   }
+   #btn a{
+       position: absolute;
+       top: 40%;
+       left: 11.5%;
+   }
+   
+}
+@media only screen and (max-width: 700px) {
+    img{
+        width: 80%;
+        height: 100%;
+    }
+    #wrapper{
+     margin-top: 10%;
+    }
+    #btn a{
+        position: absolute;
+        top: 40%;
+        left: 11.5%;
+    }
+
+}
+@media only screen and (max-width: 1000px ) {
+    img{
+        width: 50%;
+        height: 60%;
+    }
+    #wrapper{
+     margin-top: 10%;
+    }
+    #btn a{
+        position: absolute;
+        top: 40%;
+        left: 23%;
+    }
+}
+
+
+

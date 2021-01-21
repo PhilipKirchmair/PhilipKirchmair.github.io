@@ -1,3 +1,16 @@
+nav{
+    width: 10%;
+    
+}
+nav a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin-left: -1%;
+    color: black;
+    padding: 2%;
+    background-color: white;
+}
 #first {
 position: absolute;
     top:0%;
@@ -33,7 +46,7 @@ position: absolute;
     background-color: seagreen;
 }
 #button1 {
-    margin: 0 auto 0 auto;
+    margin: 0% auto 0 auto;
     background-color: lavender;
     width: 25vw;
     height: 9vw;
@@ -42,7 +55,7 @@ position: absolute;
     
 }
 #button2 {
-    margin: 0 auto 0 auto;
+    margin: 2% auto 0 auto;
     background-color: lavender;
     width: 25vw;
     height: 9vw;

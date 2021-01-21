@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+#content{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	width: 100%;
+	background-image: url("../images/mountains.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+a{
+	color: white;
+	text-decoration: none;
+	
+}
+#back{
+	background-color:crimson;
+	border: solid crimson 1px;
+	border-radius: 10%;
+	width: 5%;
+	position: absolute;
+	top: 90%;
+	left: 45%;
+	text-align: center;
+}
