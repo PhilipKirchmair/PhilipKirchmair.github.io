@@ -1,0 +1,97 @@
+body{
+    background-image: url(images/seeds.jpg);
+    background-repeat: no-repeat;
+    width: 95%;
+    height: 100vh;
+    
+
+}
+
+h1{
+    color: black;
+    width: 10vh;
+    margin:0 auto 0 auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 0 0 1px white,
+                 0 0 10px white,
+                 0 0 20px plum,
+                 0 0 40px plum,
+                 0 0 60px plum,
+                 0 0 90px plum,
+                 0 0 120px plum,
+                 0 0 160px plum;
+    
+}
+
+
+#Images{
+    margin-top: 20vh;
+    display: flex;
+
+    justify-content: space-evenly;
+
+}
+
+#center img{
+    width: 40vh;
+    height: 30vh;
+    
+}
+#left img{
+    width: 20vh;
+    height: 10vh;
+    margin-left: 10vh;
+    margin-top: 10vh;
+}
+#right img{
+    width: 20vh;
+    height: 10vh;
+    margin-top: 10vh;
+}
+#midright img{
+    width: 30vh;
+    height: 20vh;
+    margin-top: 4vh ;
+   
+}
+#midleft img{
+    width: 30vh;
+    height: 20vh;
+    margin-top: 4vh;
+    
+}
+#l{
+    position: absolute;
+    top: 80vh;
+    left: 80vh;
+    width: 10vh;
+    height: 10vh;
+    background-size: cover;
+   
+}
+#r{
+    
+    position: absolute;
+    top: 80vh;
+    left: 110vh;
+    width: 10vh;
+    height: 10vh;
+    background-size: cover;
+}
+
+.flex {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.flex > div {
+    background: rgb(10, 70, 67);
+    color: #fff;
+    margin:0 auto 0 auto;
+    width: 4%;
+    height: 2vw;
+    opacity: 0.6;
+}
+.flex > div.active {
+    opacity: 1;
+}
